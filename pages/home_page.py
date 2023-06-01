@@ -38,7 +38,7 @@ class HomePage(BaseDriver):
         time.sleep(3)
 
 
-    """Wrapping up all the above methods of the class in single method and also created object of Product_page at 
+    """Wrapping up  all the above methods of the class in single method and also created object of Product_page at 
     trigger point(i.e at the linkage of the two pages of same application)"""
 
     def search_product(self, product):
