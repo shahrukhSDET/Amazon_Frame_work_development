@@ -31,7 +31,7 @@ def pytest_configure(config):
     today = datetime.now()
     report_dir = Path("C:\\Users\\Shahrukh\\PycharmProjects\\AmazonAssignment\\Amazon_report", today.strftime("%Y%m%d"))
     report_dir.mkdir(parents=True, exist_ok=True)
-    pytest_html = report_dir/ f"Report_{today.strftime('%Y%m%d%H%M')}.html"
+    pytest_html = report_dir/ f"Report_{today.strftime('%Y%d%m%H%M')}.html"
     config.option.htmlpath = pytest_html
     config.option.self_contained_html = True
 
