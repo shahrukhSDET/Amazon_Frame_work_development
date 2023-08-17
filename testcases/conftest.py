@@ -9,9 +9,9 @@ from selenium.webdriver.chrome.service import Service
 
 #Setting up the fixture to run the test script with 2- browsers option (Chrome or Firefox)
 
-@pytest.fixture(params=["Edge"], scope="class")
+@pytest.fixture(params=["chrome"], scope="class")
 def setup(request):
-    s = Service("C:\Program Files\JetBrains\chromedriver_win32\chromedriver")
+    s = Service("I:\chrome_driver_testing\chromedriver-win64\chromedriver")
     if request.param == "chrome":
         driver = webdriver.Chrome(service=s)
 

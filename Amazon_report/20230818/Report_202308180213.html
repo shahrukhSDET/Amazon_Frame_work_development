@@ -439,9 +439,45 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
 }
 </script>
     <h1>Amazon Test Report</h1>
-    <p>Report generated on 29-Jun-2023 at 12:33:37 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.2.0</p>
+    <p>Report generated on 18-Aug-2023 at 02:13:29 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.2.0</p>
     <h2>Environment</h2>
     <table id="environment">
+      <tr>
+        <td>BUILD_ID</td>
+        <td>13</td></tr>
+      <tr>
+        <td>BUILD_NUMBER</td>
+        <td>13</td></tr>
+      <tr>
+        <td>BUILD_TAG</td>
+        <td>jenkins-Amazon_selenium_test product-13</td></tr>
+      <tr>
+        <td>BUILD_URL</td>
+        <td><a href="http://localhost:9090/job/Amazon_selenium_test%20product/13/" target="_blank">http://localhost:9090/job/Amazon_selenium_test%20product/13/</a></td></tr>
+      <tr>
+        <td>CI</td>
+        <td>true</td></tr>
+      <tr>
+        <td>EXECUTOR_NUMBER</td>
+        <td>1</td></tr>
+      <tr>
+        <td>GIT_BRANCH</td>
+        <td>origin/main</td></tr>
+      <tr>
+        <td>GIT_COMMIT</td>
+        <td>a739128146a1ec5c054b78d1817b9939e77e7904</td></tr>
+      <tr>
+        <td>GIT_URL</td>
+        <td><a href="https://github.com/shahrukhSDET/AmazonDemo_Hybrid_Framework_Development" target="_blank">https://github.com/shahrukhSDET/AmazonDemo_Hybrid_Framework_Development</a></td></tr>
+      <tr>
+        <td>JENKINS_URL</td>
+        <td><a href="http://localhost:9090/" target="_blank">http://localhost:9090/</a></td></tr>
+      <tr>
+        <td>JOB_NAME</td>
+        <td>Amazon_selenium_test product</td></tr>
+      <tr>
+        <td>NODE_NAME</td>
+        <td>built-in</td></tr>
       <tr>
         <td>Packages</td>
         <td>{"pluggy": "1.0.0", "pytest": "7.2.0"}</td></tr>
@@ -453,10 +489,13 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <td>{"html": "3.2.0", "metadata": "2.0.4", "xdist": "3.1.0"}</td></tr>
       <tr>
         <td>Python</td>
-        <td>3.11.0</td></tr></table>
+        <td>3.11.0</td></tr>
+      <tr>
+        <td>WORKSPACE</td>
+        <td>C:\Users\Shahrukh\.jenkins\workspace\Amazon_selenium_test product</td></tr></table>
     <h2>Summary</h2>
-    <p>1 tests ran in 37.44 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">1 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>0 tests ran in 2.86 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">0 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">1 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -467,11 +506,11 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
           <th class="sortable links" col="links">Links</th></tr>
         <tr hidden="true" id="not-found-message">
           <th colspan="4">No results found. Try to check the filters</th></tr></thead>
-      <tbody class="passed results-table-row">
+      <tbody class="error results-table-row">
         <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">test_product_search.py::Test_search_product::test_product_search_and_addtocart[chrome]</td>
-          <td class="col-duration">37.35</td>
+          <td class="col-result">Error</td>
+          <td class="col-name">testcases/test_product_search.py::Test_search_product::test_product_search_and_addtocart[chrome]::setup</td>
+          <td class="col-duration">2.22</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
